@@ -4,7 +4,8 @@ nav{
     justify-content: center;
 }
 img{
-    width: 10%;
+    width: 50%;
+    margin-left: 10%;
 }
 ul{
     display: flex;
@@ -14,4 +15,11 @@ ul{
 }
 li{
     list-style-type: none;
+}
+li a{
+    color: red;
+    font-weight: 700;
+}
+.navbar-collapse{
+    margin-left: 45%
 }

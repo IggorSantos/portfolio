@@ -4,8 +4,9 @@ nav{
     justify-content: center;
 }
 img{
-    width: 50%;
-    margin-left: 10%;
+    width: 10%;
+    margin-left: 5%;
+    cursor: pointer;
 }
 ul{
     display: flex;
@@ -22,4 +23,10 @@ li a{
 }
 .navbar-collapse{
     margin-left: 45%
+}
+
+@media (max-width:550px){
+    img{
+        width: 25%;
+    }    
 }

@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ProjectsComponent implements OnInit {
   projects = [
     {"nameProject": "Cinequiz",
-     "description": "Um projeto criado durante a Imersão React v2 da Alura utilizando NextJs. Se trata de um quiz sobre cinema",
+     "description": "Um projeto criado durante a Imersão React v2 da Alura.",
      "img": "./assets/imgs/cinequiz.png",
      "link": "https://github.com/IggorSantos/cineQuiz"
     },
@@ -18,7 +18,7 @@ export class ProjectsComponent implements OnInit {
     "link": "https://github.com/IggorSantos/github-api"
    },
    {"nameProject": "Splitter",
-   "description": "Um projeto criado conforme desafio do Frontend Mentor. Se trata de uma calculadora de gorjeta",
+   "description": "Um projeto criado conforme desafio do Frontend Mentor.",
    "img": "./assets/imgs/splitter.png",
    "link": "https://github.com/IggorSantos/tipCalculatorApp"
   }

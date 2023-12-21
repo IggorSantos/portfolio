@@ -8,6 +8,14 @@ main{
     font-weight: 700;
     text-align: justify;
 }
+.div-img{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 10rem;
+    border-radius: 50%;
+}
 .title-social{
     font-size: 25px;
     font-weight: 700;

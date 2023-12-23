@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./card-resume.component.css']
 })
 export class CardResumeComponent implements OnInit {
-  @Input('edu') educations: any
+  @Input('job') jobs: any
 
   constructor() { }
 

@@ -1,1 +1,8 @@
-<p>resume works!</p>
+<main class="container">
+    <p>Experiência Profissional</p>   
+    <div *ngFor="let edu of educations">
+        <app-card-resume [edu]="edu"></app-card-resume>
+    </div>
+    
+</main>
+

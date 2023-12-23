@@ -4,6 +4,7 @@ import { RouterModule } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { CardComponent } from './card/card.component';
 import { CardResumeComponent } from './card-resume/card-resume.component';
+import { CardEducationComponent } from './card-education/card-education.component';
 
 
 
@@ -12,6 +13,7 @@ import { CardResumeComponent } from './card-resume/card-resume.component';
     HeaderComponent,
     CardComponent,
     CardResumeComponent,
+    CardEducationComponent,
   ],
   imports: [
     CommonModule,
@@ -20,7 +22,8 @@ import { CardResumeComponent } from './card-resume/card-resume.component';
   exports: [
     HeaderComponent,
     CardComponent,
-    CardResumeComponent
+    CardResumeComponent,
+    CardEducationComponent
   ]
 })
 export class SharedComponentsModule { }

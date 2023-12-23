@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { CardComponent } from './card/card.component';
+import { CardResumeComponent } from './card-resume/card-resume.component';
 
 
 
@@ -10,6 +11,7 @@ import { CardComponent } from './card/card.component';
   declarations: [
     HeaderComponent,
     CardComponent,
+    CardResumeComponent,
   ],
   imports: [
     CommonModule,
@@ -17,7 +19,8 @@ import { CardComponent } from './card/card.component';
   ],
   exports: [
     HeaderComponent,
-    CardComponent
+    CardComponent,
+    CardResumeComponent
   ]
 })
 export class SharedComponentsModule { }
